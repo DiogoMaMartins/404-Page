@@ -2,11 +2,78 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: 800px;
     height:400px;
+    bottom:10px;
 
 }
 a{
   text-decoration:none;
 
 }
+
+
+
+.mao{
+   position:absolute;
+   top:10px;
+   right:200px;
+   width:128px;
+   height:128px;
+   z-index:1;
+}
+
+.mao:hover{
+  top:10px;
+  right:550px;
+  transition:all 3s linear;
+  -webkit-transition:all 3s linear;
+  -moz-transition:all 3s linear;
+  -o-transition:all 3s linear;
+
+}
+
+.retornar{
+   top:50px;
+   right:700px;
+   position:absolute;
+   height:30px;
+   width:60px;
+
+
+}
+input:hover{
+color:red;
+
+}
+
+
+.mao1{
+   position:absolute;
+   top:10px;
+   left:100px;
+   width:128px;
+   height:128px;
+   z-index:1;
+}
+
+.mao1:hover{
+  top:10px;
+  left:400px;
+  transition:all 3s linear;
+  -webkit-transition:all 3s linear;
+  -moz-transition:all 3s linear;
+  -o-transition:all 3s linear;
+
+}
+input{
+  width:100px;
+  height:80px;
+  font-size:25px;
+  font-family:fantasy;
+  font-weight: 600;
+  color:blue;
+  background:white;
+
+}
+

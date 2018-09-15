@@ -1,3 +1,8 @@
+
+**Don't work with Firefox**
+
+*You have to use GOOGLE CHROME*
+
 # 404-Page
 ERROR 404 [my error 404](https://diogomamartins.github.io/404-Page/)
 ## Objectifs

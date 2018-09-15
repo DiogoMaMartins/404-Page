@@ -7,73 +7,124 @@ img{
     bottom:10px;
 
 }
+
 a{
   text-decoration:none;
 
 }
 
-
-
-.mao{
-   position:absolute;
-   top:10px;
-   right:200px;
-   width:128px;
-   height:128px;
-   z-index:1;
-}
-
-.mao:hover{
-  top:10px;
-  right:550px;
-  transition:all 3s linear;
-  -webkit-transition:all 3s linear;
-  -moz-transition:all 3s linear;
-  -o-transition:all 3s linear;
-
-}
-
 .retornar{
-   top:50px;
-   right:700px;
-   position:absolute;
-   height:30px;
-   width:60px;
-
+  text-align:center;
+  
+  
+}
+input{
+  width:200px;
+  height:50px;
+  font-size:30px;
+  border-radius:50%;
+  color:blue;
 
 }
+
+
 input:hover{
 color:red;
 
 }
 
+.pisca{
+  animation: blinker 1s linear infinite;
+  width:100px;
+  height:80px;
+  
+}
 
-.mao1{
+@keyframes blinker {
+  90% {
+    opacity: 0;
+  }
+}
+.azul{
+   position:relative;
+   top:0px;
+   float:right;
+   clear:right;
+   width:60px;
+   height:60px;
+   z-index:1;
+  
+
+}
+.vermelha{
    position:absolute;
    top:10px;
-   left:100px;
-   width:128px;
-   height:128px;
+   float:left;
+   clear:left;
+   width:60px;
+   height:60px;
    z-index:1;
 }
 
-.mao1:hover{
-  top:10px;
-  left:400px;
+.azul:hover{
+  top:800px;
+  float:right;
+  clear:right;
   transition:all 3s linear;
   -webkit-transition:all 3s linear;
   -moz-transition:all 3s linear;
   -o-transition:all 3s linear;
 
 }
-input{
-  width:100px;
-  height:80px;
-  font-size:25px;
-  font-family:fantasy;
-  font-weight: 600;
-  color:blue;
-  background:white;
+
+.vermelha:hover{
+  top:800px;
+  float:left;
+  clear:left;
+  transition:all 3s linear;
+  -webkit-transition:all 3s linear;
+  -moz-transition:all 3s linear;
+  -o-transition:all 3s linear;
 
 }
 
+.vermelha1{
+   position:relative;
+   bottom:0px;
+   float:right;
+   clear:right;
+   width:60px;
+   height:60px;
+   z-index:1;
+  
+
+}
+.azul1{
+   position:absolute;
+   bottom:10px;
+   float:left;
+   clear:left;
+   width:60px;
+   height:60px;
+   z-index:1;
+}
+
+.vermelha1:hover{
+  bottom:800px;
+  float:right;
+  clear:right;
+  transition:all 3s linear;
+  -webkit-transition:all 3s linear;
+  -moz-transition:all 3s linear;
+  -o-transition:all 3s linear;
+
+}
+
+.azul1:hover{
+  bottom:800px;
+  float:left;
+  clear:left;
+  transition:all 3s linear;
+  -webkit-transition:all 3s linear;
+  -moz-transition:all 3s linear;
+  -o-transition:all 3s linear;
